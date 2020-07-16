@@ -1,0 +1,25 @@
+{
+  "name": "beacon-scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-9",
+    "mongoose": "^5.9.18",
+    "noble": "^1.9.1",
+    "node-beacon-scanner": "^0.2.2",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "mqtt": "^4.1.0",
+    "node-cron": "^2.0.3"
+  }
+}
