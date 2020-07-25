@@ -36,7 +36,7 @@ scanner.startScan().then(() => {
 cron.schedule("*/1 * * * * *", function() {
     storage.getAllEmitters(function (err,row) {
         console.log("Running Cron Job");
-        const current_time=Date.now()-(10*1000);
+        const current_time=Date.now()-(1*1000);
         if (!err)
         row.forEach(function (item) {
                 if (item.timestamp<current_time) {
